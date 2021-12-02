@@ -6,7 +6,7 @@ using dotnet_rpg.Models;
 
 namespace dotnet_rpg.Dtos.Charater
 {
-    public class AddCharacterDto
+    public class GetCharacterDto
     {
         public int Id {get;set;}
         public string Name {get; set;}="frodo";

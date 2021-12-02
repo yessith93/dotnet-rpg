@@ -6,7 +6,7 @@ using dotnet_rpg.Models;
 
 namespace dotnet_rpg.Dtos.Charater
 {
-    public class AddCharacterDto
+    public class UpdateCharacterDto
     {
         public int Id {get;set;}
         public string Name {get; set;}="frodo";
@@ -15,6 +15,5 @@ namespace dotnet_rpg.Dtos.Charater
         public int Defense  {get;set;} = 10;
         public int intelligence {get;set;} = 10;
         public RpgClass Class {get;set; }=RpgClass.knight;
-
     }
 }
